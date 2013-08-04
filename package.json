@@ -2,13 +2,13 @@
     "name": "BootstrapArabic"
   , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
   , "version": "2.3.2"
-  , "keywords": ["Bootstrap Arabic", "css"]
-  , "homepage": "http://twbs.github.com/bootstrap/"
+  , "keywords": ["Bootstrap", "Bootstrap Arabic", "css"]
+  , "homepage": "http://zerox.me/projects/bootstrap/"
   , "author": "Twitter Inc. & @zerox"
   , "scripts": { "test": "grunt test" }
   , "repository": {
       "type": "git"
-    , "url": "https://github.com/twbs/bootstrap.git"
+    , "url": "https://github.com/izer0x/Bootstrap-Arabic.git"
   }
   , "licenses": [
     {
