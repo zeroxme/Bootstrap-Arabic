@@ -8,10 +8,17 @@
  * Designed and built with all the love in the world @twitter by @mdo, @fat and @izer0x.
  */
 @font-face {
-  font-family: 'DroidKufiRegular';
+  font-family: 'Droid Arabic Kufi';
   src: url('../font/DroidKufi-Regular.eot');
-  src: url('../font/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('../font/DroidKufi-Regular.woff') format('woff'), url('../font/DroidKufi-Regular.ttf') format('truetype'), url('../font/DroidKufi-Regular.svg#helvetica_Neue_LT_W20_light') format('svg');
-  font-weight: normal;
+  src: url('../font/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('../font/DroidKufi-Regular.woff') format('woff'), url('../font/DroidKufi-Regular.woff2') format('woff2'), url('../font/DroidKufi-Regular.ttf') format('truetype'), url('../font/DroidKufi-Regular.svg#Droid Arabic Kufi') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  src: url('../font/DroidKufi-Bold.eot');
+  src: url('../font/DroidKufi-Bold.eot?#iefix') format('embedded-opentype'), url('../font/DroidKufi-Bold.woff') format('woff'), url('../font/DroidKufi-Bold.woff2') format('woff2'), url('../font/DroidKufi-Bold.ttf') format('truetype'), url('../font/DroidKufi-Bold.svg#Droid Arabic Kufi') format('svg');
+  font-weight: 700;
   font-style: normal;
 }
 .clearfix {
@@ -42,7 +49,7 @@
 }
 body * {
   direction: rtl;
-  font-weight: 300;
+  font-weight: 400;
 }
 article,
 aside,
@@ -216,7 +223,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "DroidKufiRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Arabic Kufi", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -556,7 +563,7 @@ small {
   font-size: 85%;
 }
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 em {
   font-style: italic;
@@ -616,7 +623,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -627,7 +634,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1;
   color: #999999;
 }
@@ -888,7 +895,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "DroidKufiRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Arabic Kufi", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -5616,7 +5623,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "DroidKufiRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Arabic Kufi", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
