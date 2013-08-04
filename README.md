@@ -1,7 +1,7 @@
 Bootstrap Arabic 2.3.2
 ================
 
-Flat style + Font Awesome 3.2.1
+Flat style + Font Awesome 3.2.1 [homepage](http://zerox.me/projects/bootstrap/)
 
 ## Compiling CSS and JavaScript
 
