@@ -1,0 +1,26 @@
+{
+    "name": "BootstrapArabic"
+  , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
+  , "version": "2.3.2"
+  , "keywords": ["Bootstrap Arabic", "css"]
+  , "homepage": "http://twbs.github.com/bootstrap/"
+  , "author": "Twitter Inc. & @zerox"
+  , "scripts": { "test": "grunt test" }
+  , "repository": {
+      "type": "git"
+    , "url": "https://github.com/twbs/bootstrap.git"
+  }
+  , "licenses": [
+    {
+        "type": "Apache-2.0"
+      , "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+  , "devDependencies": {
+      "grunt": "~0.4.1"
+    , "grunt-contrib-concat": "~0.3.0"
+    , "grunt-contrib-uglify": "~0.2.2"
+    , "grunt-contrib-watch": "~0.5.1"
+    , "grunt-contrib-less": "~0.6.4"
+  }
+}
